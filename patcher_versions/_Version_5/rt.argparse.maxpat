@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 524.0, 79.0, 882.0, 787.0 ],
+		"rect" : [ 35.0, 116.0, 1370.0, 749.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "nobars",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-30",
@@ -58,7 +59,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 691.0, 241.5, 30.0, 30.0 ]
+					"patching_rect" : [ 604.0, 225.5, 30.0, 30.0 ]
 				}
 
 			}
@@ -71,30 +72,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 604.0, 280.0, 22.0, 22.0 ],
 					"text" : "t b"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 604.0, 241.5, 83.0, 22.0 ],
-					"text" : "route success"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 604.0, 208.0, 63.0, 22.0 ],
-					"text" : "route start"
 				}
 
 			}
@@ -227,14 +204,14 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 45.0, 640.0, 480.0 ],
+						"rect" : [ 1.0, 82.0, 1438.0, 817.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -261,6 +238,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "nobars",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-13",
@@ -316,8 +294,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 62.0, 160.833333333333343, 172.0, 22.0 ],
-									"text" : "sprintf %s%s.yml"
+									"patching_rect" : [ 62.0, 160.833333333333343, 103.0, 22.0 ],
+									"text" : "sprintf %s%s.json"
 								}
 
 							}
@@ -447,26 +425,6 @@
 					}
 ,
 					"text" : "p give_file"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 399.0, 172.0, 224.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"autostart" : 1,
-						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
-						"watch" : 1
-					}
-,
-					"text" : "node.script fig.js @watch 1 @autostart 1"
 				}
 
 			}
@@ -756,7 +714,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
+					"destination" : [ "obj-31", 0 ],
 					"source" : [ "obj-126", 0 ]
 				}
 
@@ -972,21 +930,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"midpoints" : [ 408.5, 195.0, 143.5, 195.0 ],
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-3", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"midpoints" : [ 613.5, 333.0, 558.0, 333.0, 558.0, 204.0, 375.0, 204.0, 375.0, 42.0, 81.0, 42.0, 81.0, 48.0, 59.5, 48.0 ],
 					"source" : [ "obj-30", 0 ]
@@ -1038,20 +981,6 @@
 				}
 
 			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
-					"source" : [ "obj-8", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
  ],
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
@@ -1074,6 +1003,7 @@
 , 			{
 				"name" : "Luca",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1084,13 +1014,12 @@
 						"autogradient" : 0
 					}
 ,
-					"fontname" : [ "Open Sans Semibold" ],
-					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
-					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ],
-					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
 					"selectioncolor" : [ 0.720698, 0.16723, 0.080014, 1.0 ],
-					"textcolor_inverse" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
-					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ]
+					"accentcolor" : [ 0.32549, 0.345098, 0.372549, 1.0 ],
+					"color" : [ 0.475135, 0.293895, 0.251069, 1.0 ],
+					"fontname" : [ "Open Sans Semibold" ],
+					"bgcolor" : [ 0.904179, 0.895477, 0.842975, 0.56 ],
+					"elementcolor" : [ 0.786675, 0.801885, 0.845022, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1108,9 +1037,9 @@
 , 			{
 				"name" : "max6box",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.8, 0.839216, 0.709804, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.5 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1128,6 +1057,7 @@
 , 			{
 				"name" : "max6message",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.866667, 0.866667, 0.866667, 1.0 ],
@@ -1137,8 +1067,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "max6box",
@@ -1211,8 +1140,8 @@
 , 			{
 				"name" : "rsliderGold",
 				"default" : 				{
-					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ],
-					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ]
+					"color" : [ 0.646639, 0.821777, 0.854593, 1.0 ],
+					"bgcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
