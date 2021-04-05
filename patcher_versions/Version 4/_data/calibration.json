@@ -1,0 +1,21 @@
+{
+	"bits" : 	{
+        "range" : [1000, 1400],
+        "offthresh" : -55,
+        "envfollow" : [-50, -24]
+    },
+
+    "harmfoc" : {
+        "thresh" : 0.995
+    },
+
+    "low" : {
+        "thresh" : 0.094
+    },
+
+    "disruptor" : {
+        "thresh" : 0.5,
+        "cnld" : [-48, -12]
+    }
+
+}

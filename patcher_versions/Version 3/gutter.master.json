@@ -1,0 +1,61 @@
+{
+	"pattrstorage" : 	{
+		"name" : "gutter.master",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"mc.live.gain~" : [ -1.69039694780426 ],
+					"1-rt-gutter::damp" : [ 0.0 ],
+					"1-rt-gutter::filterfreq" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.987654328346252, 0.0, 0.0, 0.0 ],
+					"1-rt-gutter::gain" : [ 0.0 ],
+					"1-rt-gutter::gainslider" : [ 0.0 ],
+					"1-rt-gutter::mod" : [ 0.0 ],
+					"1-rt-gutter::preset" : [ 5 ],
+					"1-rt-gutter::q" : [ 0.0 ],
+					"1-rt-gutter::rate" : [ 0.0 ],
+					"1-rt-gutter::shift" : [ 0.100000001490116 ],
+					"1-rt-gutter::soften" : [ 1.0 ],
+					"1-rt-gutter::gutter.inside" : [ -1 ],
+					"2-rt-gutter::damp" : [ 0.0 ],
+					"2-rt-gutter::filterfreq" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.987654328346252, 0.0, 0.0, 0.0 ],
+					"2-rt-gutter::gain" : [ 0.0 ],
+					"2-rt-gutter::gainslider" : [ 0.0 ],
+					"2-rt-gutter::mod" : [ 0.0 ],
+					"2-rt-gutter::preset" : [ 5 ],
+					"2-rt-gutter::q" : [ 0.0 ],
+					"2-rt-gutter::rate" : [ 0.0 ],
+					"2-rt-gutter::shift" : [ 0.100000001490116 ],
+					"2-rt-gutter::soften" : [ 1.0 ],
+					"2-rt-gutter::gutter.inside" : [ -1 ],
+					"3-rt-gutter::damp" : [ 0.0 ],
+					"3-rt-gutter::filterfreq" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.987654328346252, 0.0, 0.0, 0.0 ],
+					"3-rt-gutter::gain" : [ 0.0 ],
+					"3-rt-gutter::gainslider" : [ 0.0 ],
+					"3-rt-gutter::mod" : [ 0.0 ],
+					"3-rt-gutter::preset" : [ 5 ],
+					"3-rt-gutter::q" : [ 0.0 ],
+					"3-rt-gutter::rate" : [ 0.0 ],
+					"3-rt-gutter::shift" : [ 0.100000001490116 ],
+					"3-rt-gutter::soften" : [ 1.0 ],
+					"3-rt-gutter::gutter.inside" : [ -1 ],
+					"4-rt-gutter::damp" : [ 0.0 ],
+					"4-rt-gutter::filterfreq" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.987654328346252, 0.0, 0.0, 0.0 ],
+					"4-rt-gutter::gain" : [ 0.0 ],
+					"4-rt-gutter::gainslider" : [ 0.0 ],
+					"4-rt-gutter::mod" : [ 0.0 ],
+					"4-rt-gutter::preset" : [ 5 ],
+					"4-rt-gutter::q" : [ 0.0 ],
+					"4-rt-gutter::rate" : [ 0.0 ],
+					"4-rt-gutter::shift" : [ 0.100000001490116 ],
+					"4-rt-gutter::soften" : [ 1.0 ],
+					"4-rt-gutter::gutter.inside" : [ -1 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

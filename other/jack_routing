@@ -1,0 +1,8 @@
+#!/bin/bash
+
+jack_connect Max:out1 system:playback_1
+jack_connect Max:out2 system:playback_2
+jack_connect Rack:out1 Max:in9
+jack_connect Rack:out2 Max:in10
+jack_connect Max:out9 Rack:in1
+jack_connect Max:out10 Rack:in2

@@ -1,0 +1,5 @@
+1, low;
+2, high;
+3, mixture;
+4, static;
+5, bits;

@@ -1,0 +1,70 @@
+# 1 = bits
+# 2 = harmfoc
+# 3 = low
+# 4 = disruptor
+transitions:
+    0:
+        description_long:
+            - "An off state to initialise the patcher with no active modules."
+        settings:
+            - 0
+            - 0
+            - 0
+            - 0
+    #----- Basic settings for all routines routine -----#
+    1:
+        settings:
+            - 1
+            - 0 
+            - 0 
+            - 0
+        next:
+            - 1
+            - 2
+
+    2: 
+        settings:
+            - 0
+            - 1
+            - 0 
+            - 0
+        next:
+            - 1
+            - 3
+            - 4
+    3:
+        settings:
+            - 0
+            - 0
+            - 1
+            - 0
+        next:
+            - 1
+            - 3
+    4:
+        settings:
+            - 0
+            - 0
+            - 0
+            - 1
+        next:
+            - 2
+            - 3
+            - 4
+    #----- Two things at once -----#
+    # 5:
+    #     settings:
+    #         - 1
+    #         - 1
+    #         - 0
+    #         - 0
+    # 6:
+    #     settings:
+    #         - 1
+    #         - 0
+    #         - 0
+    #         - 1
+    # 7:
+    #     settings:
+    #         - 
+            

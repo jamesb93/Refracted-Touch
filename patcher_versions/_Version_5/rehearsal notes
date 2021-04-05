@@ -1,0 +1,13 @@
+1. Explain the piece to Daryl, whats going on.
+    - Its a series of stages that are progressed through. The rate of progression is determined by two factors.
+        1. Energy - the amount of energy you create advnaces the piece through its current section and to the next
+        2. You have 10 seconds at the end of the each section in which you can wait and it will automatically move on, or you can hit the MIDI pedal to push it immediately
+
+One thing we have to get right is the amount of energy required to push each section, depending on how long you want to spend in that zone
+
+The patch is listening for various things at given times. You can choose to give it those things or work around them
+        
+2. Go through the processes, use this as calibration period
+
+
+The first four sections are quite a long build into section 5 which is a huge moment

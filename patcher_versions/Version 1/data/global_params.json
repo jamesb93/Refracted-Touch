@@ -1,0 +1,31 @@
+{
+	"segmentation" : 	{
+		"thresh" : 6,
+		"debounce" : 200,
+		"switch" : 0
+	}
+,
+	"hpss" : 	{
+		"width" : 41,
+		"num_frames" : 10,
+		"power_scale" : 2.0
+	}
+,
+	"setup" : 	{
+		"duration" : "00:01:00"
+	}
+,
+	"resonators" : 	{
+		"thresh" : 0.2,
+		"decay" : [ 0.5, 0.7 ],
+		"switch" : 0
+	}
+,
+	"granulator" : 	{
+		"input_scale" : 0.1,
+		"offset_max" : [ 500, 5 ],
+		"gran_1_matrix" : [ 1, 5, 0, 5, 0, 5 ],
+		"trans_op" : 0.9
+	}
+
+}

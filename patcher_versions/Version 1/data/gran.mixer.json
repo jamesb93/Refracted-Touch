@@ -1,0 +1,39 @@
+{
+	"pattrstorage" : 	{
+		"name" : "gran.mixer",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"harm" : [ 0.0 ],
+					"perc" : [ 0.0 ],
+					"source" : [ 1.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"harm" : [ 0.0 ],
+					"perc" : [ 1.0 ],
+					"source" : [ 0.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"harm" : [ 1.0 ],
+					"perc" : [ 0.0 ],
+					"source" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

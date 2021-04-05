@@ -1,0 +1,85 @@
+{
+	"bits" : 	{
+		"1" : [  ]
+	}
+,
+	"harmfoc" : 	{
+		"1" : [  ]
+	}
+,
+	"low" : 	{
+		"1" : [  ]
+	}
+,
+	"disruptor" : 	{
+		"1" : 		{
+			"cnld" : 			{
+				"power" : 1.0
+			}
+,
+			"gran" : 			{
+				"power" : 0.0,
+				"accum" : 2.0
+			}
+,
+			"synth" : 			{
+				"power" : 0.0
+			}
+
+		}
+,
+		"2" : 		{
+			"cnld" : 			{
+				"power" : 1.0
+			}
+,
+			"gran" : 			{
+				"power" : 1.0,
+				"accum" : 2.0,
+				"shift" : 1.0
+			}
+,
+			"synth" : 			{
+				"power" : 0.0
+			}
+
+		}
+,
+		"3" : 		{
+			"cnld" : 			{
+				"power" : 1.0
+			}
+,
+			"gran" : 			{
+				"power" : 1.0,
+				"accum" : 2.0,
+				"shift" : 2.0
+			}
+,
+			"synth" : 			{
+				"power" : 1.0
+			}
+
+		}
+,
+		"4" : 		{
+			"cnld" : 			{
+				"power" : 1.0
+			}
+,
+			"gran" : 			{
+				"power" : 1.0,
+				"accum" : 2.0,
+				"shift" : 3.0
+			}
+,
+			"synth" : 			{
+				"power" : 1.0,
+				"blend" : 0.2
+			}
+
+		}
+
+	}
+
+}

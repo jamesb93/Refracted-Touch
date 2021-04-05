@@ -1,0 +1,1 @@
+move toward a dynamicdsp~ system to help conserve CPU and enable modularity between the various 'sound-makers'

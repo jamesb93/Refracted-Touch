@@ -1,0 +1,24 @@
+1:
+
+    comment:
+        0: light, fragile articulations
+        1: avoid periods of sustained intensity
+        2: embelish with effects if desired
+        3: keep it minimal
+    dynamic: "pp - mp"
+    energy: "1500"
+
+2:
+    comment:
+        0: Start this section with an burst of energy
+        1: Behave nervously/erratically
+        2: Create wild, explosive gestures
+        3: Use rapid energy changes to 'push' the patch, then wait
+    dynamic: "mp - f"
+
+3:
+    comment:
+        0:
+        1:
+        2:
+        3:

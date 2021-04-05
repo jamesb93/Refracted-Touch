@@ -1,0 +1,151 @@
+#|||||||||||||||||| Bits ||||||||||||||||||#
+bits:
+    #_____________ Off Mode _____________#
+    0: 
+        ngage: 0
+    #_____________ Stage 1 _____________#
+    1:
+        ngage: 1
+        rak: # segments derived from rack
+            power: 1.0
+        dobro: # segments derived from dobro samples  
+            power: 0.0
+    2:
+        ngage: 1
+        rak:
+            power: 1.0
+        dobro:
+            power: 1.0
+
+#|||||||||||||||||| Harmfoc ||||||||||||||||||#
+harmfoc:
+    #_____________ Off Mode _____________#
+    0: 
+        ngage: 0
+    1:
+        ngage: 1
+        freeze:
+            power: 1.0
+        gran:
+            power: 0.0
+
+
+#|||||||||||||||||| Low ||||||||||||||||||#
+low:
+    #_____________ Off Mode _____________#
+    0: 
+        ngage: 0
+    1:
+        ngage: 1
+        fuzz:
+            power: 1
+        grind:
+            power: 0
+        feedback:
+            power: 0
+    2:
+        ngage: 1
+        fuzz:
+            power: 1
+        grind:
+            power: 1
+            repeat: 0
+        feedback:
+            power: 0
+            ngage: 1
+    3:        
+        fuzz:
+            power: 1
+        grind:
+            power: 1
+            repeat: 1
+        feedback:
+            power: 1
+    4: 
+        fuzz:
+            power: 0
+        grind:
+            power: 0
+        feedback:
+            power: 1
+
+#|||||||||||||||||| Disruptor ||||||||||||||||||#
+disruptor:
+    #_____________ Off Mode _____________#
+    0: 
+        ngage: 0
+    
+    #_____________ Stage 1 _____________#
+    1:
+        ngage: 1
+        cnld: # the cubic non linear distortion
+            power: 1.0
+        gran: # granulator
+            power: 0.0
+            accum: 2.0
+            shift: 1.0
+        synth: # synthesiser
+            power: 0.0
+    #_____________ Stage 2 _____________#
+    2:
+        ngage: 1
+        cnld:
+            power: 1.0
+        gran:
+            power: 1.0
+            accum: 2.0
+            shift: 1.0
+        synth:
+            power: 0.0
+    #_____________ Stage 3 _____________#
+    3:
+        ngage: 1
+        cnld:
+            power: 1.0
+        gran:
+            power: 1.0
+            accum: 2.0
+            shift: 3.0
+        synth:
+            power: 1.0
+    ##_____________ Stage 4 _____________#
+    4:
+        ngage: 1
+        cnld:
+            power: 1.0
+        gran:
+            power: 1.0
+            accum: 2.0
+            shift: 3.0
+        synth:
+            power: 1.0
+    5:
+    # just the synth!
+        ngage: 1
+        cnld:
+            power: 0
+        gran:
+            power: 0
+        synth:
+            power: 1.0
+    6:
+        ngage: 1
+        cnld:
+            power: 1.0
+        gran:
+            power: 0
+        synth:
+            power: 1.0
+            
+    10:
+        # just the granulator!
+        ngage: 1
+        cnld:
+            power: 0
+        gran:
+            power: 1
+            accum: 2.0
+            shift: 1.0
+        synth:
+            power: 0.0
+
