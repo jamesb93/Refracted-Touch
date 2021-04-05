@@ -1,0 +1,6 @@
+*.reapeaks
+*.wav
+*.RPP-bak
+.DS_Store
+*.aif
+*.wave
