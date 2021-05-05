@@ -1,0 +1,221 @@
+{
+    "bits": {
+      "0": {
+        "ngage": 0
+      },
+      "1": {
+        "ngage": 1,
+        "rak": {
+          "power": 0,
+          "behaviour": 1
+        },
+        "dobro": {
+          "power": 1,
+          "behaviour": 1
+        }
+      },
+      "2": {
+        "ngage": 1,
+        "rak": {
+          "power": 1,
+          "behaviour": 1
+        },
+        "dobro": {
+          "power": 1,
+          "behaviour": 2
+        }
+      },
+      "3": {
+        "ngage": 1,
+        "rak": {
+          "power": 1,
+          "behaviour": 2
+        },
+        "dobro": {
+          "power": 1,
+          "behaviour": 2
+        }
+      }
+    },
+    "harmfoc": {
+      "0": {
+        "ngage": 0
+      },
+      "1": {
+        "ngage": 1,
+        "freeze": {
+          "power": 1,
+          "behaviours": 1
+        }
+      },
+      "2": {
+        "ngage": 1,
+        "freeze": {
+          "power": 1,
+          "behaviours": 2
+        }
+      }
+    },
+    "low": {
+      "0": {
+        "ngage": 0
+      },
+      "1": {
+        "ngage": 1,
+        "fuzz": {
+          "power": 1,
+          "volume": 1,
+          "fade": 5
+        },
+        "grind": {
+          "power": 0,
+          "volume": 0,
+          "fade": 5
+        },
+        "feedback": {
+          "power": 0
+        }
+      },
+      "2": {
+        "ngage": 1,
+        "fuzz": {
+          "power": 1,
+          "volume": 1,
+          "fade": 5
+        },
+        "grind": {
+          "power": 1,
+          "volume": 1,
+          "fade": 5
+        },
+        "feedback": {
+          "power": 0
+        }
+      },
+      "3": {
+        "ngage": 1,
+        "fuzz": {
+          "power": 1,
+          "volume": 1,
+          "fade": 5
+        },
+        "grind": {
+          "power": 1,
+          "volume": 1,
+          "fade": 5
+        },
+        "feedback": {
+          "power": 1
+        }
+      },
+      "4": {
+        "ngage": 1,
+        "fuzz": {
+          "power": 1,
+          "volume": 0,
+          "fade": 1000
+        },
+        "grind": {
+          "power": 1,
+          "volume": 0,
+          "fade": 1000
+        },
+        "feedback": {
+          "power": 1
+        }
+      }
+    },
+    "disruptor": {
+      "0": {
+        "ngage": 0
+      },
+      "1": {
+        "ngage": 1,
+        "input": 0,
+        "cnld": {
+          "power": 1
+        },
+        "gran": {
+          "power": 0
+        },
+        "synth": {
+          "power": 0
+        }
+      },
+      "2": {
+        "ngage": 1,
+        "input": 1,
+        "cnld": {
+          "power": 0
+        },
+        "gran": {
+          "power": 1,
+          "accum": 4
+        },
+        "synth": {
+          "power": 0
+        }
+      },
+      "3": {
+        "ngage": 1,
+        "input": 1,
+        "cnld": {
+          "power": 1
+        },
+        "gran": {
+          "power": 1,
+          "accum": 4
+        },
+        "synth": {
+          "power": 1,
+          "preset": 13,
+          "fade": 5
+        }
+      },
+      "4": {
+        "ngage": 1,
+        "input": 0,
+        "cnld": {
+          "power": 0
+        },
+        "gran": {
+          "power": 1,
+          "accum": 5
+        },
+        "synth": {
+          "power": 1,
+          "preset": 17,
+          "fade": 5
+        }
+      },
+      "5": {
+        "ngage": 1,
+        "input": 0,
+        "cnld": {
+          "power": 0
+        },
+        "gran": {
+          "power": 0
+        },
+        "synth": {
+          "power": 1,
+          "preset": 17,
+          "fade": 5
+        }
+      },
+      "6": {
+        "ngage": 1,
+        "input": 0,
+        "cnld": {
+          "power": 0
+        },
+        "gran": {
+          "power": 1,
+          "accum": 3
+        },
+        "synth": {
+          "power": 0
+        }
+      }
+    }
+  }

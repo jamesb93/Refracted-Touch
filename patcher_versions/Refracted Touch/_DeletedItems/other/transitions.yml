@@ -1,0 +1,151 @@
+transitions:
+    0:
+        description_long:
+            - "An off state to initialise the patcher with no active modules."
+        settings:
+            - 0
+            - 0
+            - 0
+            - 0
+    #----- Basic Settings for the rt.bits routine -----#
+    1:
+        long_description:
+            - "Digital blips that respond to amplitude and range. The blips will increase and decrease in density along with your amplitude. Range between the calibrated minimum and maximum control the types of blips that are produced, from low to high frequency in a one-to-one mapping."
+        settings:
+        #in order of bits/harmfoc/low/diruptor
+        # 0 == off
+            - 1
+            - 0
+            - 0
+            - 0
+        next:
+            - 2
+            - 5
+            - 
+    2:
+        long_description:
+            - "Concatenated samples are introduced"
+        settings:
+            - 2
+            - 0
+            - 0
+            - 0
+        next:
+            - 3
+            - 5
+    3:
+        long_description:
+            - "Autonomous behaviours are introduced, the samples will start to work in the background and on their own."
+        settings:
+            - 3
+            - 0
+            - 0
+            - 0
+        next:
+            - 4
+            - 5
+    4:
+        long_description:
+            - ""
+        settings:
+            - 4
+            - 0
+            - 0
+            - 0
+        next:
+            - 5
+    #----- Basic Settings for the rt.harmfoc routine -----#
+    5:
+        settings:
+            - 0
+            - 1
+            - 0
+            - 0
+        next:
+            - 6
+    6:
+        settings:
+            - 0
+            - 2
+            - 0
+            - 0
+        next:
+            - 7
+    7:
+        settings:
+            - 0
+            - 3
+            - 0
+            - 0
+        next:
+            - 8
+    8:
+        settings:
+            - 0
+            - 4
+            - 0
+            - 0
+    #----- Basic Settings for the rt.low routine -----#
+    9:
+        settings:
+            - 0
+            - 0
+            - 1
+            - 0
+        next:
+            - 10
+    10:
+        settings:
+            - 0
+            - 0
+            - 2
+            - 0
+        next:
+            - 11
+    11:
+        settings:
+            - 0
+            - 0
+            - 3
+            - 0
+        next:
+            - 12
+    12:
+        settings:
+            - 0
+            - 0
+            - 4
+            - 0
+    #----- Basic Settings for the rt.disruptor routine -----#
+    13:
+        settings:
+            - 0
+            - 0
+            - 0
+            - 1
+        next:
+            - 14
+    14:
+        settings:
+            - 0
+            - 0
+            - 0
+            - 2
+        next:
+            - 15
+    15:
+        settings:
+            - 0
+            - 0
+            - 0
+            - 3
+        next:
+            - 16
+    16:
+        settings:
+            - 0
+            - 0
+            - 0
+            - 4
+
+            

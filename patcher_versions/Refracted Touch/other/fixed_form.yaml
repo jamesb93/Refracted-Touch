@@ -1,0 +1,171 @@
+0:
+    comment:
+        0: Everything is off
+        1: --
+        2: --
+        3: --
+    dynamic: nil
+    force_events:
+        - "0 0 0 0"
+    warnings:
+        0: --
+        1: --
+    guide: Off state
+
+1:
+    comment:
+        0: use high to extreme high register mostly
+        1: use volume pedal to blend fx + natural sound
+        2: experiment with dynamics - processing crushes more when louder
+        3: small, delicate articulations
+    dynamic: pp - mp
+    energy: 75
+    # adjust the energy such that it takes about 45 - 60 seconds
+    force_events:
+        - "1 0 0 1"
+    warnings:
+        0: --
+        1: --
+    guide: "Daryl should be in the extreme high register here mainly. As this is the introduction to the piece you need to hold off and build over the first 4 sections."
+
+2:
+    comment:
+        0: extremely light, fragile articulations
+        1: occasional bursts of intensity
+        2: guitar samples are matched to onsets
+        3: slide + bar percussively
+    dynamic: pp - mf
+    energy: 75
+    force_events:
+        - "1 0 0 1"
+    warnings:
+        0: --
+        1: --
+    guide: "The dobro samples are introduced here. There isn't much energy to spare, so Daryl will have to work very quietly with the electronics. This section acts as a small dip and leads to greater things in the next section."
+
+3:
+    comment:
+        1: more frequent bursts of intensity
+        0: catch the electronics, play off their behaviour
+        2: use more range
+        3: --
+    dynamic: pp - mf
+    energy: 900
+    force_events:
+        - "2 0 0 1"
+    warnings:
+        0: --
+        1: --
+    guide: "The electronic samples are introduced and respond to onsets here. This section is about building intensity into section 4 and there should be a big increase in momentum overall."
+
+4:
+# The final culmination of the first section # definitely include some granulation here, after a frozen note has happened perhaps #
+    comment:
+        0: increase intensity of articulations
+        1: patch will freeze harmonic moments, exploit this
+        2: granulation will intermittely join you, work with it when it does
+        3: onset based electronics now follow your intensity
+    dynamic: mp - mf
+    force_events:
+        - "3 1 0 2"
+    warnings:
+        0: HARD START!!! SHARDS
+        1: HARD START!!! SHARDS
+    energy: 900
+    guide: "Granulation is introduced albeit it is hard to push it into full blown noise. There is some spectral freezing (on harmonic notes) which can be exploited. It might be nice to try and catch a harmonic just before the next section is activated."
+
+5:
+# Alternates wildly between synthesiser presets using onsets. The idea is that Daryl will use these articulations to push the patch, but he can then work inbetween these articulations with non onset based material.
+    comment:
+        0: use a range of techniques
+        1: wild, explosive gestures
+        2: synthesiser changes with onsets
+        3: work against and with preset changes
+    dynamic: mf - ff
+    force_events:
+        - "0 1 0 3" #check the gran is in the right place with the accum
+    energy: 2000
+    warnings:
+        0: You should end this section quietly to blend into the next
+        1: --
+    guide: "This is the first big moment in the piece. Daryl can go nuts here and really work against the sound of the synthesiser while exploiting some spectral freezing if he feels like it. It might also call for a change in the pedal work."
+
+
+6:
+# intermission
+    comment:
+        0: do almost nothing in this section
+        1: let the synthesiser take the foreground for some time
+        2: perform intermittent interjections to activate the granulator
+        3: ornament the synthesiser
+    force_events:
+        - "0 0 0 4"
+    energy: 500
+    dynamic: pp - mf
+    warnings:
+        0: start with low strings
+        1: lead in quietly 
+    guide: "A simple intermission leading towards the low section. It acts as a reprieve and gives a chance for the listener's ear to rest. There is granulation, but some more low drone like tones might work well in here."
+
+7:
+# This section can be the classic low idea in its original conception. 
+    comment:
+        0: use only strings 6, 5, 4
+        1: Repetitively strike strings while detuning with benders
+        2: low drone follows your playing
+        3: --
+    force_events:
+        - "0 0 1 5" #keep the synth on so its not such an abrupt cut
+    energy: 3000
+    warnings:
+        0: --
+        1: --
+    dynamic: mp - f
+    guide: "Section 7, 8, 9 are part of a unit; its another build as the sections add more electronic behaviours. This entire group should be rooted in the repetitive low striking. It can become more chaotic after the first section, which should be quite grindy slow and almost minimal."
+        
+8:     
+    comment:
+        0: use only strings 6, 5, 4
+        1: repetitively strike strings while detuning with benders
+        2: electronics recycle material when you are not playing
+        3: create a dialogue with electronics
+    force_events:
+        - "0 0 2 0"
+    energy: 3000
+    dynamic: mp - ff
+    warnings:
+        0: feedback is coming in the next section
+        1: --
+    guide: "Section 7, 8, 9 are part of a unit; When 8 starts, there should be an immediate focus on using breaks to trigger the electronics and working with that."
+9:
+    comment:
+        0: use only strings 6, 5, 4
+        1: repetitively strike strings while detuning with benders
+        2: feedback seeps in when not playing
+        3: give increasing space to the electronics
+    force_events:
+        - "0 0 3 0"
+    energy: 3000
+    dynamic: mf - ff
+    warnings:
+        0: move to next section with ONLY feedback active
+        1: focus on feedback
+    guide: "Section 7, 8, 9 are part of a unit; When 9 starts, feedback is introduced and is at its more prominent when Daryl isn't playing. It will still come through but attenuates when sustained playing occurs. This should be fairly chaotic, with the guitar receding into the electronics."
+
+10:
+# This section will use piercing feedback, a lot of freeze voices and a harsh/wild granulator. Daryl can thicken and embelish with his own sounds #
+    comment:
+        0: fiery, searing, harmonic tones captured and held
+        1: granulator will regurgitate - exploit this
+        2: mix feedback, ebow, some gestures
+        3: finish with a rich cluster of feedback and frozen sounds
+    dynamic: f - ff
+    force_events:
+        - "0 2 4 6" #maybe turn off the cnld
+    energy: 20000
+    warnings:
+        0: --
+        1: --
+    guide: "Harmonic, clustery, freeze like sounds. There is a granulator which picks up on the total opposite, all the percussive and noisy sounds. This can create some interplay or Daryl can go ham on just creating spectral moments. This section would be ripe for some ebow + bar."
+    
+### This file contains information that is sent to daryl, and parts of the working patch. The information contained in this patch pertains to three larger sections, composed in the first performance of this piece ###

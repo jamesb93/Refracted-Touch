@@ -1,0 +1,45 @@
+{
+	"bits" : 	{
+		"onset_type" : "rt.genericonset",
+		"envfollow" : [ -48.0, -24.0 ],
+		"onsetthresh" : 0.014
+	}
+,
+	"harmfoc" : 	{
+		"thresh" : 0.93
+	}
+,
+	"low" : 	{
+		"onset_type" : "rt.genericonset",
+		"onsetthresh" : 0.094,
+		"offthresh" : -24.0
+	}
+,
+	"disruptor" : 	{
+		"onset_type" : "rt.genericonset",
+		"onsetthresh" : 0.2,
+		"cnldEnv" : [ -60.0, -0.0 ],
+		"cnldfxrange" : [ 0.5, 0.7 ],
+		"cnldmultiplier" : 1.0
+	}
+,
+	"bits_generic" : 	{
+		"thresh" : [ 7.0, 19.0 ],
+		"lockout" : 100
+	}
+,
+	"low_generic" : 	{
+		"thresh" : [ 7.0, 19.0 ],
+		"lockout" : 100
+	}
+,
+	"disruptor_generic" : 	{
+		"thresh" : [ 7.0, 19.0 ],
+		"lockout" : 150
+	}
+,
+	"global" : 	{
+		"iocomp" : 1.0
+	}
+
+}
