@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 5,
+			"minor" : 1,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "nobars",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-2",
@@ -44,7 +45,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 174.00006103515625, 270.0, 92.0, 22.0 ],
+					"patching_rect" : [ 174.00006103515625, 235.0, 92.0, 22.0 ],
 					"text" : "dynamic.this~ 1"
 				}
 
@@ -55,11 +56,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.666687035156201, 270.0, 35.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"attr_comment" : ""
-					}
-,
+					"patching_rect" : [ 48.666687035156201, 235.0, 35.0, 22.0 ],
 					"text" : "out 1"
 				}
 
@@ -75,8 +72,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 0,
-							"revision" : 5,
+							"minor" : 1,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -109,6 +106,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "nobars",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -259,18 +257,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-147",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 48.666687035156201, 235.0, 85.0, 22.0 ],
-					"text" : "debounce 100"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -337,13 +323,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
-					"source" : [ "obj-147", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-13", 0 ],
 					"source" : [ "obj-27", 1 ]
 				}
@@ -351,7 +330,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-147", 0 ],
+					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -366,15 +345,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "r~.maxpat",
-				"bootpath" : "~/Sync/00_MAX/_Max_Libs/_Abstractions/james",
-				"patcherrelativepath" : "../../../../_Max_Libs/_Abstractions/james",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "debounce.maxpat",
-				"bootpath" : "~/Sync/00_max/_Max_Libs/_Abstractions",
-				"patcherrelativepath" : "../../../../../00_max/_Max_Libs/_Abstractions",
+				"bootpath" : "~/Cloud/Projects/RefractedTouch/patcher_versions/Refracted Touch/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}

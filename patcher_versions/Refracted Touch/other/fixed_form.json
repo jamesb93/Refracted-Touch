@@ -164,7 +164,7 @@
 		"warnings" : 		{
 			"0" : "feedback is coming in the next section",
 			"1" : "--"
-		}
+		} 
 ,
 		"guide" : "Section 7, 8, 9 are part of a unit; When 8 starts, there should be an immediate focus on using breaks to trigger the electronics and working with that."
 	}

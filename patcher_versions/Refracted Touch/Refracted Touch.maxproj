@@ -2,8 +2,8 @@
 	"name" : "Refracted Touch",
 	"version" : 1,
 	"creationdate" : 3703056785,
-	"modificationdate" : 3703071234,
-	"viewrect" : [ 1.0, 88.0, 1257.0, 536.0 ],
+	"modificationdate" : 3703786355,
+	"viewrect" : [ 780.0, 212.0, 521.0, 622.0 ],
 	"autoorganize" : 0,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -12,18 +12,7 @@
 		"patchers" : 		{
 			"Refracted Touch.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"toplevel" : 1
-			}
-,
-			"faster_onset.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Cloud/Projects/RefractedTouch/patcher_versions/Refracted Touch/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
 			}
 ,
 			"rt.cnld.maxpat" : 			{
@@ -31,14 +20,19 @@
 				"local" : 1
 			}
 ,
+			"faster_onset.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"time.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Cloud/Projects/RefractedTouch/patcher_versions/Refracted Touch/patchers",
-					"projectrelativepath" : "./patchers"
-				}
-
+				"local" : 1
+			}
+,
+			"rt.lowonset.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"rt.bits.rackbehaviour_1.maxpat" : 			{
@@ -605,6 +599,19 @@
 			"rt.count.gendsp" : 			{
 				"kind" : "gendsp",
 				"local" : 1
+			}
+
+		}
+,
+		"data" : 		{
+			"fb_values.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Cloud/Projects/RefractedTouch/patcher_versions/Refracted Touch/other",
+					"projectrelativepath" : "./other"
+				}
+
 			}
 
 		}
